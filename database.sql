@@ -2,7 +2,8 @@
 SQLyog Ultimate v12.09 (64 bit)
 MySQL - 10.4.16-MariaDB : Database - berkarya
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
@@ -289,7 +290,7 @@ CREATE TABLE `users` (
 
 /*Data for the table `users` */
 
-insert  into `users`(`id_user`,`nama`,`email`,`username`,`password`,`akses_level`,`kode_rahasia`,`gambar`,`keterangan`,`tanggal_post`,`tanggal`) values (1,'Admin Berkarya','admin@berkarya.or.id','javawebmedia','087d5b11ffafb946e87dfdb7c49dd2538c8049fc','Admin',NULL,'1623973476_b0a3101c1c58335989fb.jpg','','2019-10-12 15:50:21','2021-06-18 06:44:37');
+insert  into `users`(`id_user`,`nama`,`email`,`username`,`password`,`akses_level`,`kode_rahasia`,`gambar`,`keterangan`,`tanggal_post`,`tanggal`) values (1,'Admin Berkarya','admin@berkarya.or.id','berkarya','087d5b11ffafb946e87dfdb7c49dd2538c8049fc','Admin',NULL,'1623973476_b0a3101c1c58335989fb.jpg','','2019-10-12 15:50:21','2021-06-18 06:44:37');
 
 /*Table structure for table `video` */
 
